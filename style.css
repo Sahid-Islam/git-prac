@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: rgb(8, 13, 43);
+}
 header{
     background-color: darkslateblue;
     height: 10vh;
@@ -40,8 +43,6 @@ li:hover{
     text-align: center;
     gap: 20px;
     margin-top: 20px;
-    background-color: yellow;
-    height: 100vh;
 }
 .mob{
     padding: 40px;
@@ -52,4 +53,13 @@ li:hover{
     background-color: darkgoldenrod;
     border-radius: 20px 0px;
     transition: 0.3s;
+}
+.section{
+    color: antiquewhite;
+    margin-top: 10px;
+    text-align: justify;
+    padding: 0px 40px;
+    border: 1px solid white;
+    border-radius: 0px 0px 30px 30px;
+    background-color: rgb(90, 71, 71);
 }
